@@ -3,6 +3,6 @@ export default function (e: MouseEvent) {
 
 	window.UIkit.notification({
 		message: 'This is just a demo',
-		status: 'danger'
+		status: 'destructive'
 	});
 }

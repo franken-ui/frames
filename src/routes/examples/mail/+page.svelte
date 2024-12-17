@@ -414,26 +414,31 @@
 								</li>
 							{/each}
 						</ul>
-						<button class="uk-btn uk-btn-ghost" aria-label="Menu">
-							<span class="size-4">
-								<uk-icon icon="ellipsis-vertical"></uk-icon>
-							</span>
-						</button>
-						<div class="uk-drop uk-dropdown w-52" data-uk-dropdown="pos: bottom-right; mode: click">
-							<ul class="uk-dropdown-nav uk-nav">
-								<li>
-									<a class="uk-drop-close" onclick={demo}> Mark as unread </a>
-								</li>
-								<li>
-									<a class="uk-drop-close" onclick={demo}> Star thread </a>
-								</li>
-								<li>
-									<a class="uk-drop-close" onclick={demo}> Add label </a>
-								</li>
-								<li>
-									<a class="uk-drop-close" onclick={demo}> Mute thread </a>
-								</li>
-							</ul>
+						<div class="uk-inline pl-2">
+							<button class="uk-btn uk-btn-ghost uk-btn-icon" aria-label="Menu">
+								<span class="size-4">
+									<uk-icon icon="ellipsis-vertical"></uk-icon>
+								</span>
+							</button>
+							<div
+								class="uk-drop uk-dropdown w-52"
+								data-uk-dropdown="pos: bottom-right; mode: click"
+							>
+								<ul class="uk-dropdown-nav uk-nav">
+									<li>
+										<a class="uk-drop-close" onclick={demo}> Mark as unread </a>
+									</li>
+									<li>
+										<a class="uk-drop-close" onclick={demo}> Star thread </a>
+									</li>
+									<li>
+										<a class="uk-drop-close" onclick={demo}> Add label </a>
+									</li>
+									<li>
+										<a class="uk-drop-close" onclick={demo}> Mute thread </a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>

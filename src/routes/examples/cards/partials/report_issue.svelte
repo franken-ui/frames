@@ -61,7 +61,7 @@
 		<div class="space-y-2">
 			<div class="uk-form-label">Tags</div>
 			<div>
-				<uk-input-tag state="danger" value="Spam"></uk-input-tag>
+				<uk-input-tag state="destructive" value="Spam"></uk-input-tag>
 			</div>
 		</div>
 	</div>

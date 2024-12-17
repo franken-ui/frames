@@ -112,7 +112,7 @@
 					<div class="space-y-2">
 						<label class="uk-form-label text-destructive" for="bio">Bio</label>
 						<textarea
-							class="uk-textarea uk-form-danger"
+							class="uk-textarea uk-form-destructive"
 							id="bio"
 							placeholder="Tell us a little bit about yourself"
 						></textarea>
